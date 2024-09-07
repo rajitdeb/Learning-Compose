@@ -1,4 +1,4 @@
-package com.rajit.learning_compose
+package com.rajit.learning_compose.wellnessapp
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -28,8 +28,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.rajit.learning_compose.ui.theme.LearningComposeTheme
-import com.rajit.learning_compose.wellnessapp.WellnessTask
-import com.rajit.learning_compose.wellnessapp.WellnessViewModel
 
 @Composable
 fun WellnessTasksList(
