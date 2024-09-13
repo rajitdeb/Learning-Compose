@@ -78,4 +78,7 @@ dependencies {
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.5")
 
+    // Animation
+    implementation("androidx.compose.foundation:foundation:1.7.1")
+
 }

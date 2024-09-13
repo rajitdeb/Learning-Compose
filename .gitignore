@@ -25,3 +25,6 @@ local.properties
 /.idea/other.xml
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml
+/.idea/runConfigurations.xml

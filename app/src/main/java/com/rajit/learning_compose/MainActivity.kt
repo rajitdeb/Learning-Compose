@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
+import com.rajit.learning_compose.lazylistapp.LazyListApp
 import com.rajit.learning_compose.wellnessapp.WaterCounterApp
 
 class MainActivity : ComponentActivity() {
@@ -17,10 +18,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            val windowSizeClass = calculateWindowSizeClass(this)
+//            val windowSizeClass = calculateWindowSizeClass(this)
+//
+//            // Water Counter App is used to understand the concept of State Management in Compose
+//            WaterCounterApp(windowSizeClass)
 
-            // Water Counter App is used to understand the concept of State Management in Compose
-            WaterCounterApp(windowSizeClass)
+            LazyListApp()
+
         }
     }
 }
