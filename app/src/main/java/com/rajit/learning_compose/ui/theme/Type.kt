@@ -33,61 +33,97 @@ private val fontFamilyLato = FontFamily(
     )
 )
 
+//val typography = Typography(
+//    displayLarge = TextStyle(
+//        fontFamily = fontFamilyKulim,
+//        fontWeight = FontWeight.Light,
+//        fontSize = 57.sp,
+//        lineHeight = 64.sp,
+//        letterSpacing = (-0.25).sp
+//    ),
+//    displayMedium = TextStyle(
+//        fontFamily = fontFamilyKulim,
+//        fontSize = 45.sp,
+//        lineHeight = 52.sp
+//    ),
+//    displaySmall = TextStyle(
+//        fontFamily = fontFamilyKulim,
+//        fontSize = 36.sp,
+//        lineHeight = 44.sp
+//    ),
+//    titleMedium = TextStyle(
+//        fontFamily = fontFamilyLato,
+//        fontWeight = FontWeight(500),
+//        fontSize = 16.sp,
+//        lineHeight = 24.sp,
+//        letterSpacing = (0.15).sp
+//    ),
+//    bodySmall = TextStyle(
+//        fontFamily = fontFamilyLato,
+//        fontSize = 12.sp,
+//        lineHeight = 16.sp,
+//        letterSpacing = (0.4).sp
+//    ),
+//    bodyMedium = TextStyle(
+//        fontFamily = fontFamilyLato,
+//        fontSize = 14.sp,
+//        lineHeight = 20.sp,
+//        letterSpacing = (0.25).sp
+//    ),
+//    bodyLarge = TextStyle(
+//        fontFamily = fontFamilyLato,
+//        fontSize = 16.sp,
+//        lineHeight = 24.sp,
+//        letterSpacing = (0.5).sp
+//    ),
+//    labelMedium = TextStyle(
+//        fontFamily = fontFamilyLato,
+//        fontWeight = FontWeight(500),
+//        fontSize = 12.sp,
+//        lineHeight = 16.sp,
+//        letterSpacing = (0.5).sp,
+//        textAlign = TextAlign.Center
+//    ),
+//    labelLarge = TextStyle(
+//        fontFamily = fontFamilyLato,
+//        fontSize = 14.sp,
+//        lineHeight = 20.sp,
+//        letterSpacing = (0.1).sp
+//    )
+//)
+
+/**
+ * We have only used the type scales that are necessary in our app omitting all others
+ */
 val typography = Typography(
-    displayLarge = TextStyle(
-        fontFamily = fontFamilyKulim,
-        fontWeight = FontWeight.Light,
-        fontSize = 57.sp,
-        lineHeight = 64.sp,
-        letterSpacing = (-0.25).sp
+    headlineSmall = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp,
+        lineHeight = 32.sp,
+        letterSpacing = 0.sp
     ),
-    displayMedium = TextStyle(
-        fontFamily = fontFamilyKulim,
-        fontSize = 45.sp,
-        lineHeight = 52.sp
-    ),
-    displaySmall = TextStyle(
-        fontFamily = fontFamilyKulim,
-        fontSize = 36.sp,
-        lineHeight = 44.sp
-    ),
-    titleMedium = TextStyle(
-        fontFamily = fontFamilyLato,
-        fontWeight = FontWeight(500),
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = (0.15).sp
-    ),
-    bodySmall = TextStyle(
-        fontFamily = fontFamilyLato,
-        fontSize = 12.sp,
-        lineHeight = 16.sp,
-        letterSpacing = (0.4).sp
-    ),
-    bodyMedium = TextStyle(
-        fontFamily = fontFamilyLato,
-        fontSize = 14.sp,
-        lineHeight = 20.sp,
-        letterSpacing = (0.25).sp
+    titleLarge = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 18.sp,
+        lineHeight = 32.sp,
+        letterSpacing = 0.sp
     ),
     bodyLarge = TextStyle(
-        fontFamily = fontFamilyLato,
+        fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
-        letterSpacing = (0.5).sp
+        letterSpacing = 0.15.sp
     ),
-    labelMedium = TextStyle(
-        fontFamily = fontFamilyLato,
-        fontWeight = FontWeight(500),
-        fontSize = 12.sp,
-        lineHeight = 16.sp,
-        letterSpacing = (0.5).sp,
-        textAlign = TextAlign.Center
-    ),
-    labelLarge = TextStyle(
-        fontFamily = fontFamilyLato,
+    bodyMedium = TextStyle(
+        fontWeight = FontWeight.Medium,
         fontSize = 14.sp,
         lineHeight = 20.sp,
-        letterSpacing = (0.1).sp
+        letterSpacing = 0.25.sp,
+    ),
+    labelMedium = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 12.sp,
+        lineHeight = 16.sp,
+        letterSpacing = 0.5.sp,
     )
 )
